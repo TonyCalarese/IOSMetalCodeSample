@@ -19,8 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		02C2A11002C3E2E000000001 /* SampleCode.xcconfig */ = {isa = PBXFileReference; name = SampleCode.xcconfig; path = Configuration/SampleCode.xcconfig; sourceTree = "<group>"; };
-		02D6FDD002D6FB8000000001 /* LICENSE.txt */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE.txt; sourceTree = "<group>"; };
+		02C2A11002C3E2E000000001 /* SampleCode.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = SampleCode.xcconfig; path = Configuration/SampleCode.xcconfig; sourceTree = "<group>"; };
+		02D6FDD002D6FB8000000001 /* LICENSE.txt */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
 		3A1E2E1A1F71B4D900A7B165 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3A70730B1EBD4A67001F05E4 /* CaptureManagerSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CaptureManagerSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3ABBACED1F73154F0080C72C /* MetalKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MetalKit.framework; path = System/Library/Frameworks/MetalKit.framework; sourceTree = SDKROOT; };
@@ -65,7 +65,6 @@
 			children = (
 				02D6FDD002D6FB8000000001 /* LICENSE.txt */,
 			);
-			name = LICENSE;
 			path = LICENSE;
 			sourceTree = "<group>";
 		};
@@ -152,8 +151,6 @@
 				3A7073071EBD4A67001F05E4 /* Sources */,
 				3A7073081EBD4A67001F05E4 /* Frameworks */,
 				3A7073091EBD4A67001F05E4 /* Resources */,
-				2DD030402DD02E0000000001,
-				6C478D606C478D2000000001,
 			);
 			buildRules = (
 			);
@@ -175,6 +172,7 @@
 				TargetAttributes = {
 					3A70730A1EBD4A67001F05E4 = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = Y34UQ473KZ;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -351,7 +349,7 @@
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = Y34UQ473KZ;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					TARGET_MACOS,
 					"$(inherited)",
@@ -375,7 +373,7 @@
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = Y34UQ473KZ;
 				GCC_PREPROCESSOR_DEFINITIONS = TARGET_MACOS;
 				INFOPLIST_FILE = Application/macOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
